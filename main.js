@@ -96,7 +96,7 @@ function oddFriend(fNames = `hello`) {
         return `input the arr`;
     }
 
-    for (const friend of friends) {
+    for (const friend of fNames) {
         if (friend.length % 2 != 0) {
             return friend;
         }
